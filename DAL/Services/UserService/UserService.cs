@@ -22,7 +22,7 @@ namespace DAL.Services
 
         public async Task<object> Login(User user)
         {
-            var invalidMsg = "Invalid user name or password, please enter your user name and passowrd.";
+            var invalidMsg = "Invalid user name or password,  please try again.";
             var userInDb = await _RentalCarDbContext.Users.FirstOrDefaultAsync(u => u.UserName == user.UserName);
             if (userInDb == null)
                 return invalidMsg;

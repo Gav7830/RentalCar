@@ -225,9 +225,9 @@ namespace DAL
             var ph = new PasswordHasher<User>();
             modelBuilder.Entity<User>().HasData(new User[]
             {
-                CreateUser(1, "Admin", "Admin", "Admin", "Admin",
+                CreateUser(1, "Admin", "Admin", "Admin", "Admin123",
                     "email1@gmail.com", "", "", 1, ph),
-                CreateUser(2, "User", "User", "User", "User",
+                CreateUser(2, "User", "User", "User", "User1234",
                     "email2@gmail.com", "", "", 2, ph)
             });
         }

@@ -14336,7 +14336,7 @@ namespace DAL.Migrations
                             CarId = 3,
                             EndDate = new DateTime(2023, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LocationId = 1,
-                            OrderDate = new DateTime(2023, 8, 16, 12, 20, 2, 88, DateTimeKind.Local).AddTicks(9757),
+                            OrderDate = new DateTime(2023, 8, 16, 21, 13, 34, 460, DateTimeKind.Local).AddTicks(8809),
                             Price = 400,
                             StartDate = new DateTime(2023, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UserId = 2
@@ -14460,7 +14460,7 @@ namespace DAL.Migrations
                             ImageData = "",
                             ImageName = "",
                             LastName = "Admin",
-                            Password = "AQAAAAIAAYagAAAAEFBVf+htMiVo3laiIPwIOc0DhzL09ZhRw8VfL5Wb/mlMKxTmhPSiNaE6s/0z/3IZWA==",
+                            Password = "AQAAAAIAAYagAAAAEM/w9ET2IusXENJ7nidXq/aCxB4QeNuYC33yfqgYaWmAQ0zLowcjg44BgfrRfTcoqw==",
                             RefreshTokenExpires = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             RoleId = 1,
                             UserName = "Admin"
@@ -14473,7 +14473,7 @@ namespace DAL.Migrations
                             ImageData = "",
                             ImageName = "",
                             LastName = "User",
-                            Password = "AQAAAAIAAYagAAAAEK26KNLy3vg53/qJswH01Ea1K1Xcbn+nX/eqTLELmkWM9lhT4GGMAVUax7Ojq0Ffog==",
+                            Password = "AQAAAAIAAYagAAAAEEidp5yl2nbPFq2Pzrgj3F7Qr5oo0OHc8DzllavH7LVqOIyTDmNwYl6KNFlh4b1Ylw==",
                             RefreshTokenExpires = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             RoleId = 2,
                             UserName = "User"

@@ -2,9 +2,10 @@
 
 namespace DAL.Services
 {
-    internal interface IOrderService
+    public interface IOrderService
     {
         public Task<string> PostOrder(Order order);
         public Task<object> GetOrders(int userId);
+        public Task<bool> DeleteOrder(int orderId);
     }
 }

@@ -12,6 +12,17 @@ namespace DAL.Services
             _RentalCarDbContext = rentalCarDbContext;
         }
 
+        public async Task<bool> DeleteOrder(int id)
+        {
+            var order = await _RentalCarDbContext.Orders.FindAsync(id);
+            if (order == null)
+                return false;
+
+            _RentalCarDbContext.Orders.Remove(order);
+            await _RentalCarDbContext.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<object> GetOrders(int userId)
         {
             try

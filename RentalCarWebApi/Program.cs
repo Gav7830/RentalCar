@@ -27,7 +27,8 @@ namespace RentalCarWebApi
             builder.Services.AddScoped<ICarService, CarService>();
             builder.Services.Decorate<ICarService, CachedCarService>();
             builder.Services.AddScoped<UserService>();
-            builder.Services.AddScoped<OrderService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.Decorate<IOrderService, CachedOrderService>();
             builder.Services.AddScoped<LocationService>();
             builder.Services.AddScoped<CarModelService>();
             builder.Services.AddScoped<CarCompanyNameService>();

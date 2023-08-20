@@ -2192,7 +2192,7 @@ namespace DAL.Migrations
             migrationBuilder.InsertData(
                 table: "Orders",
                 columns: new[] { "Id", "CarId", "EndDate", "LocationId", "OrderDate", "Price", "StartDate", "UserId" },
-                values: new object[] { 1, 3, new DateTime(2023, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, new DateTime(2023, 8, 16, 12, 20, 2, 88, DateTimeKind.Local).AddTicks(9757), 400, new DateTime(2023, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), 2 });
+                values: new object[] { 1, 3, new DateTime(2023, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, new DateTime(2023, 8, 16, 21, 13, 34, 460, DateTimeKind.Local).AddTicks(8809), 400, new DateTime(2023, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), 2 });
 
             migrationBuilder.InsertData(
                 table: "TransmissionAndDriveTypes",
@@ -2212,8 +2212,8 @@ namespace DAL.Migrations
                 columns: new[] { "UserId", "Email", "FirstName", "ImageData", "ImageName", "LastName", "Password", "RefreshToken", "RefreshTokenExpires", "RoleId", "UserName" },
                 values: new object[,]
                 {
-                    { 1, "email1@gmail.com", "Admin", "", "", "Admin", "AQAAAAIAAYagAAAAEFBVf+htMiVo3laiIPwIOc0DhzL09ZhRw8VfL5Wb/mlMKxTmhPSiNaE6s/0z/3IZWA==", null, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "Admin" },
-                    { 2, "email2@gmail.com", "User", "", "", "User", "AQAAAAIAAYagAAAAEK26KNLy3vg53/qJswH01Ea1K1Xcbn+nX/eqTLELmkWM9lhT4GGMAVUax7Ojq0Ffog==", null, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, "User" }
+                    { 1, "email1@gmail.com", "Admin", "", "", "Admin", "AQAAAAIAAYagAAAAEM/w9ET2IusXENJ7nidXq/aCxB4QeNuYC33yfqgYaWmAQ0zLowcjg44BgfrRfTcoqw==", null, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "Admin" },
+                    { 2, "email2@gmail.com", "User", "", "", "User", "AQAAAAIAAYagAAAAEEidp5yl2nbPFq2Pzrgj3F7Qr5oo0OHc8DzllavH7LVqOIyTDmNwYl6KNFlh4b1Ylw==", null, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, "User" }
                 });
 
             migrationBuilder.CreateIndex(
